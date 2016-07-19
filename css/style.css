@@ -6,6 +6,7 @@ body {
     background: black;
     font-family: sans-serif;
     color: white;
+    margin: 0px;
 }
 
 img.main-image {
@@ -17,13 +18,54 @@ img.main-image {
 }
 
 h1 {
-    padding: 50px; 
-    margin: 100px; 
-    position: relative; 
-    left: 0px
+    
 }
 
 
 h1, h2, h3, h4, h5, h6 {
     
+}
+
+/* HERO SECTION */
+
+.hero {
+    height: 100vh;
+    position: relative;
+}
+
+.hero .content-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+}
+
+.hero .background-image {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-image: url(Stagephoto.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.hero h1 {
+    text-align: center;
+}
+
+a.button {
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 8px 25px;
+    margin: 10px;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+a.button:hover, a.button:active {
+    color: black;
+    background-color: white;
 }
