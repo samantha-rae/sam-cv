@@ -69,3 +69,26 @@ a.button:hover, a.button:active {
     color: black;
     background-color: white;
 }
+
+h2 {
+    font-size: 75%;   
+}
+
+.overview{
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 100px;
+    left: 0px;
+}
+    
+.buffer{
+    padding: 100px 100px;
+    margin: 100px;
+    background-image: url(fabric.photo.jpg); 
+    background background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+    
+    
+}
