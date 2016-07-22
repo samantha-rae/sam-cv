@@ -83,18 +83,18 @@ h2 {
 }
     
 .buffer{
-    padding: 100px 100px;
-    margin: 100px;}
+    height: 60vh;
+    position: relative;
+}
 
 .buffer .background-image {   
-    position: relative;
-    top: 800px;
+    position: absolute;
+    top: 0px;
     bottom: 0px;
     left: 0px;
     right: 0px;
     background-image: url(fabric.photo.jpg); 
-    background background-size: contain;
-    resize: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: center center;
 }
