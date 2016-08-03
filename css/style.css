@@ -1,11 +1,11 @@
 html {
-    
+
 }
 
 body {
-    background: black;
-    font-family: sans-serif;
-    color: white;
+    background: #2b332e;
+    font-family: solomon;
+    color: #707070;;
     margin: 0px;
 }
 
@@ -18,19 +18,22 @@ img.main-image {
 }
 
 h1 {
-    
+
 }
 
-
-h1, h2, h3, h4, h5, h6 {
-    
+h4{
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
 }
+
 
 /* HERO SECTION */
 
 .hero {
     height: 100vh;
     position: relative;
+    background: black;
 }
 
 .hero .content-wrapper {
@@ -81,7 +84,7 @@ h2 {
     padding: 100px;
     left: 0px;
 }
-    
+
 .buffer{
     height: 60vh;
     position: relative;
@@ -98,3 +101,64 @@ h2 {
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+
+b.button {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 8px 25px;
+    margin: 10px;
+    top: 170px;
+    left: 350px;
+}
+
+.work-expereince .wrapper{
+    color: aliceblue;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.wrapper{
+    width: 100%;
+    color: aliceblue;
+}
+
+.work-expereince {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+}
+
+.wrapper .location, .work-experience .wrapper .title{
+  margin-top: 5px; 
+}
+
+.work-experience .wrapper .dates {
+    margin-bottom: 5px;
+}
+    
+.p.right.dates{
+    margin-bottom: 0px;
+}
+
+.left .title {
+margin-top: 5px;  
+}
+
+.heading{
+    margin: 0px;
+    margin-top: 15px;
+}
+
+}
+
+}
+
