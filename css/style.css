@@ -116,14 +116,16 @@ b.button {
 }
 
 .bio .container{
-    text-align: left;
+    text-align: center;
     background-color: white;
     color: black;
-    padding: 20px;
+    padding: 70px;
     /* left: 0px; */
-    width: 49%;
+    width: 100%;
     font-family: solomon;
     box-sizing: border-box;
+   
+    
 }
 
 .fifty{
@@ -131,15 +133,6 @@ b.button {
     float: left;
 }
 
-.skills{
-    background-color: white;
-    color: black;
-    padding: 50px;
-    left: 0px;
-    width: 49%;
-    margin-left: 397px;
-    margin-top: -230px;
-}
 
 .work-expereince .wrapper{
     color: aliceblue;
@@ -164,11 +157,11 @@ b.button {
     width: 90%;
 }
 
-.wrapper .location, .work-experience .wrapper .title{
+.wrapper .location, .work-experience .wrapper .title .education{
   margin-top: 5px; 
 }
 
-.work-experience .wrapper .dates {
+.work-experience .wrapper .dates .education{
     margin-bottom: 5px;
 }
     
@@ -186,4 +179,20 @@ margin-top: 5px;
 }
 
 
+.education{
+    max-width: 1280px;
+    width: 90%;  
+    padding-bottom: 70px;
+}    
 
+
+.contact {
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin: 50px;
+    width: 100%;
+    font-family: solomon;
+
+  
+}
